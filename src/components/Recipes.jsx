@@ -12,7 +12,7 @@ const Recipes = ({addRecipeToQueue}) => {
     },[])
     
     return (
-        <div className="md:w-2/3">
+        <div id="target" className="md:w-2/3">
             <div className="grid grid-cols-1 lg:grid-cols-2">
                 {
           recipes.map(recipe => 
@@ -34,11 +34,11 @@ const Recipes = ({addRecipeToQueue}) => {
               <div className="flex gap-4">
                 <div className="flex gap-2 justify-center items-center">
                 <i className="fa-regular fa-clock text-2xl"></i>
-                <h3>{recipe.preparing_time}</h3>
+                <h3>{recipe.preparing_time} min</h3>
                 </div>
                 <div className="flex gap-2 justify-center items-center">
                 <i className="fa-solid fa-fire-flame-curved text-2xl"></i>
-                <h3>{recipe.calories}</h3>
+                <h3>{recipe.calories} calories</h3>
                 </div>
 
               </div>

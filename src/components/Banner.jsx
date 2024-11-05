@@ -13,12 +13,11 @@ const Banner = () => {
     <div className="max-w-md">
       <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
       <p className="mb-5">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      Chef’s Table is a critically acclaimed documentary series on Netflix that offers an intimate look into the lives, philosophies, and culinary artistry of some of the world’s most renowned chefs. Each episode delves deeply into the personal stories of a different chef, exploring their journey, inspirations, and the struggles they overcame to reach the pinnacle of the culinary world.
       </p>
       <div className=''>
-      <button className="btn btn-success mr-5">Explore Now</button>
-      <button className="btn btn-outline text-white">Our Feedback</button>
+      <button className="btn btn-success mr-5"><a href="#target">Explore Now</a></button>
+      <button className="btn btn-outline text-white"> <a href="#target-1">Our Feedback</a></button>
       </div>
     </div>
   </div>
